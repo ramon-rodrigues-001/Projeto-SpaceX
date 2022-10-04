@@ -1,0 +1,24 @@
+.container-geral {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+.container-01 {
+    background: url(../imagens/home/01.jpg) center center no-repeat;
+    background-size: cover;
+
+    .header {
+        display: flex;
+        padding-top: 30px;
+        max-width: 100vw;
+
+        #logo-header {
+            width: 250px;
+            height: 45px;
+        }
+
+        .nav-header {
+            display: flex;
+        }
+    }
+}

@@ -29,3 +29,15 @@
         }
     }
 }
+
+// media queryes para diminuir tamanho da fonte
+@media screen and (max-width: 400px) {
+    .container-geral {
+        #title-top{
+            font-size: 18px;
+        }
+        #title{
+            font-size: 25px;
+        }
+    }
+}

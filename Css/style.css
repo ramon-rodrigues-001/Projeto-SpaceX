@@ -1,5 +1,29 @@
-.container-geral {
+* {
   color: #ffffff;
+}
+
+.header a {
+  color: #ffffff;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+.header a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.header .logo {
+  padding-top: 20px;
+  max-width: 250px;
+}
+
+.arrowDown {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px;
+  width: 90px;
+}
+
+.container-geral {
   min-height: 100vh;
 }
 .container-geral .container-texto {
@@ -10,19 +34,6 @@
 }
 .container-geral .container-texto .btn {
   width: 150px;
-}
-.container-geral a {
-  font-weight: 500;
-  color: #ffffff;
-  padding: 5px 10px;
-}
-.container-geral a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
-.container-geral .logo {
-  padding-top: 20px;
-  max-width: 250px;
 }
 
 .container-01 {
@@ -53,7 +64,6 @@
 }
 .footer p {
   font: bold 1.1em italic Arial;
-  color: #ffffff;
 }
 .footer p a {
   color: #ffffff;

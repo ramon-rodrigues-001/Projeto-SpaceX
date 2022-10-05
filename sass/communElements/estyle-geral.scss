@@ -1,0 +1,27 @@
+* {
+    color: $branco-commun;
+}
+
+.header {
+    a {
+        color: $branco-commun;
+        font-weight: 500;
+        padding: 5px 10px;
+
+        &:hover {
+            color: $branco-commun;
+            text-decoration: underline;
+        }
+    }
+    .logo {
+        padding-top: 20px;
+        max-width: 250px;
+    }
+}
+
+.arrowDown {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+    width: 90px;
+}

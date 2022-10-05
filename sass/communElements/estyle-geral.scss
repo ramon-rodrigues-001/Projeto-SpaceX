@@ -2,6 +2,10 @@
     color: $branco-commun;
 }
 
+body {
+    background-color: black;
+}
+
 .header {
     a {
         color: $branco-commun;
@@ -9,8 +13,8 @@
         padding: 5px 10px;
 
         &:hover {
-            color: $branco-commun;
             text-decoration: underline;
+            color: $link-hover;
         }
     }
     .logo {
@@ -24,4 +28,43 @@
     display: inline-block;
     margin-top: 30px;
     width: 90px;
+}
+
+.button {
+    padding: $pading-botton;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 10%;
+
+    p {
+        font: bold 1.1em italic Arial;
+
+        a {
+            text-decoration: none;
+            color: $branco-commun;
+
+            &:hover {
+                text-decoration: underline;
+                color: $link-hover;
+            }
+        }
+    }
+}
+
+
+// MEDIA QUERYS
+@media screen and (max-width: 400px) {
+    .header {
+        .logo {
+            width: 180px;
+        }
+
+        i.h1 {
+            font-size: 1em;
+        }
+    }
 }

@@ -2,14 +2,18 @@
   color: #ffffff;
 }
 
+body {
+  background-color: black;
+}
+
 .header a {
   color: #ffffff;
   font-weight: 500;
   padding: 5px 10px;
 }
 .header a:hover {
-  color: #ffffff;
   text-decoration: underline;
+  color: #b1afaf;
 }
 .header .logo {
   padding-top: 20px;
@@ -23,37 +27,8 @@
   width: 90px;
 }
 
-.container-geral {
-  min-height: 100vh;
-}
-.container-geral .container-texto {
-  padding-top: 19%;
-}
-.container-geral .container-texto p {
-  max-width: 500px;
-}
-.container-geral .container-texto .btn {
-  width: 150px;
-}
-
-.container-01 {
-  background: url(../imagens/home/01.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.container-02 {
-  background: url(../imagens/home/02.gif) center center no-repeat;
-  background-size: cover;
-}
-
-.container-03 {
-  background: url(../imagens/home/03.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.container-04 {
-  background: url(../imagens/home/04.jpg) center center no-repeat;
-  background-size: cover;
+.button {
+  padding: 15px 35px;
 }
 
 .footer {
@@ -66,7 +41,46 @@
   font: bold 1.1em italic Arial;
 }
 .footer p a {
+  text-decoration: none;
   color: #ffffff;
+}
+.footer p a:hover {
+  text-decoration: underline;
+  color: #b1afaf;
+}
+
+@media screen and (max-width: 400px) {
+  .header .logo {
+    width: 180px;
+  }
+  .header i.h1 {
+    font-size: 1em;
+  }
+}
+.container-geral {
+  min-height: 100vh;
+}
+.container-geral.container-01 {
+  background: url(../imagens/home/01.jpg) center center no-repeat;
+  background-size: cover;
+}
+.container-geral.container-02 {
+  background: url(../imagens/home/03.jpg) center center no-repeat;
+  background-size: cover;
+}
+.container-geral.container-03 {
+  background: url(../imagens/home/02.gif) center center no-repeat;
+  background-size: cover;
+}
+.container-geral.container-04 {
+  background: url(../imagens/home/04.jpg) center center no-repeat;
+  background-size: cover;
+}
+.container-geral .container-texto {
+  padding-top: 200px;
+}
+.container-geral .container-texto #title {
+  max-width: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */

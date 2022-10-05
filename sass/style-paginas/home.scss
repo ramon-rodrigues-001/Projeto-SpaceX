@@ -1,51 +1,31 @@
 .container-geral {
     min-height: 100vh;
         
-    .container-texto {
-        padding-top: 19%;
-
-        p {
-            max-width: 500px;
-        }
-
-        .btn {
-            width: 150px;
-        }
+    &.container-01 {
+        background: url(../imagens/home/01.jpg) center center no-repeat;
+        background-size: cover;
     }
-}
-.container-01 {
-    background: url(../imagens/home/01.jpg) center center no-repeat;
-    background-size: cover;
-}
 
+    &.container-02 {
+        background: url(../imagens/home/03.jpg) center center no-repeat;
+        background-size: cover;
+    }
 
+    &.container-03 {
+        background: url(../imagens/home/02.gif) center center no-repeat;
+        background-size: cover;
+    }
 
-.container-02 {
-    background: url(../imagens/home/02.gif) center center no-repeat;
-    background-size: cover;
-}
+    &.container-04 {
+        background: url(../imagens/home/04.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    
+    .container-texto {
+        padding-top: 200px;
 
-.container-03 {
-    background: url(../imagens/home/03.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-.container-04 {
-    background: url(../imagens/home/04.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 5px 10%;
-
-    p {
-        font: bold 1.1em italic Arial;
-
-        a {
-            color: $branco-commun;
+        #title {
+            max-width: 500px;
         }
     }
 }

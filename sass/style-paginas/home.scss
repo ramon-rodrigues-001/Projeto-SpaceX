@@ -1,51 +1,36 @@
-body {
-    color: white;
-}
-
 .container-geral {
+    color: $branco-commun;
     min-height: 100vh;
         
     .container-texto {
         padding-top: 19%;
 
         p {
-            width: 500px;
+            max-width: 500px;
         }
 
         .btn {
             width: 150px;
         }
     }
-}
+    a {
+        font-weight: 500;
+        color: $branco-commun;
+        padding: 5px 10px;
 
+        &:hover {
+            color: $branco-commun;
+            text-decoration: underline;
+        }
+    }
+    .logo {
+        padding-top: 20px;
+        max-width: 250px;
+    }
+}
 .container-01 {
     background: url(../imagens/home/01.jpg) center center no-repeat;
     background-size: cover;
-
-    .header{
-        padding: 30px 0px;
-        flex-wrap: nowrap;
-
-        #logo-header {
-            max-width: 260px;
-            margin-right: 30px;
-        }
-
-        #navbar-header {
-            display: flex;
-            gap: 25px;
-
-            a {
-                color: white;
-                font-weight: 500;
-                text-decoration: none;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-        }
-    }    
 }
 
 .container-02 {
@@ -61,4 +46,20 @@ body {
 .container-04 {
     background: url(../imagens/home/04.jpg) center center no-repeat;
     background-size: cover;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 10%;
+
+    p {
+        font: bold 1.1em italic Arial;
+        color: $branco-commun;
+
+        a {
+            color: $branco-commun;
+        }
+    }
 }

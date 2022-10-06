@@ -23,6 +23,10 @@ body {
     }
 }
 
+.container-texto {
+    padding-top: 200px;
+}
+
 .arrowDown {
     font-weight: bolder;
     display: inline-block;
@@ -31,7 +35,9 @@ body {
 }
 
 .button {
+    font-weight: bold;
     padding: $pading-botton;
+    border: solid 2px $branco-commun;
 }
 
 .footer {

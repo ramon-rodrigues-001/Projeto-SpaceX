@@ -1,0 +1,25 @@
+.container-geral {
+    min-height: 100vh;
+
+    &.container-05 {
+        background: url(../imagens/falcon9/01.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    
+    &.container-06 {
+        background: url(../imagens/falcon9/02.jpg) center center no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+
+        .falcon9Desc {
+            font-size: 1.1em;
+            line-height: 40px;
+            max-width: 550px;
+        }
+    }
+}
+
+.cardsNumb {
+    margin: 20px 0px;
+}

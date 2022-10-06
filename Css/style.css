@@ -20,6 +20,10 @@ body {
   max-width: 250px;
 }
 
+.container-texto {
+  padding-top: 200px;
+}
+
 .arrowDown {
   font-weight: bolder;
   display: inline-block;
@@ -28,7 +32,9 @@ body {
 }
 
 .button {
+  font-weight: bold;
   padding: 15px 35px;
+  border: solid 2px #ffffff;
 }
 
 .footer {
@@ -76,9 +82,6 @@ body {
   background: url(../imagens/home/04.jpg) center center no-repeat;
   background-size: cover;
 }
-.container-geral .container-texto {
-  padding-top: 200px;
-}
 .container-geral .container-texto #title {
   max-width: 500px;
 }
@@ -90,6 +93,28 @@ body {
   .container-geral #title {
     font-size: 25px;
   }
+}
+.container-geral {
+  min-height: 100vh;
+}
+.container-geral.container-05 {
+  background: url(../imagens/falcon9/01.jpg) center center no-repeat;
+  background-size: cover;
+}
+.container-geral.container-06 {
+  background: url(../imagens/falcon9/02.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.container-geral.container-06 .falcon9Desc {
+  font-size: 1.1em;
+  line-height: 40px;
+  max-width: 550px;
+}
+
+.cardsNumb {
+  margin: 20px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

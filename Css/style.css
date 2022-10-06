@@ -95,6 +95,7 @@ body {
   }
 }
 .container-geral {
+  font-size: 1.1em;
   min-height: 100vh;
 }
 .container-geral.container-05 {
@@ -108,18 +109,14 @@ body {
   align-items: center;
 }
 .container-geral.container-06 .falcon9Desc {
-  font-size: 1.1em;
   line-height: 40px;
   max-width: 550px;
 }
-
-.container-07 {
-  background-color: red;
+.container-geral.carrosel {
+  background: url(../imagens/falcon9/03.jpg) center center no-repeat;
+  background-size: cover;
   display: grid;
   align-items: center;
-}
-.container-07 .carrosel-geral {
-  max-width: 460px;
 }
 
 .cardsNumb {

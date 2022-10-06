@@ -1,4 +1,5 @@
 .container-geral {
+    font-size: 1.1em;
     min-height: 100vh;
 
     &.container-05 {
@@ -13,23 +14,19 @@
         align-items: center;
 
         .falcon9Desc {
-            font-size: 1.1em;
             line-height: 40px;
             max-width: 550px;
         }
     }
 
-}
-
-.container-07 {
-    background-color: red;
-    display: grid;
-    align-items: center;
-
-    .carrosel-geral {
-        max-width: 460px;
+    &.carrosel {
+        background: url(../imagens/falcon9/03.jpg) center center no-repeat;
+        background-size: cover;
+        display: grid;
+        align-items: center;
     }
 }
+
 
 .cardsNumb {
     margin: 20px 0px;

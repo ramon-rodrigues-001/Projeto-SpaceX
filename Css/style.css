@@ -113,6 +113,15 @@ body {
   max-width: 550px;
 }
 
+.container-07 {
+  background-color: red;
+  display: grid;
+  align-items: center;
+}
+.container-07 .carrosel-geral {
+  max-width: 460px;
+}
+
 .cardsNumb {
   margin: 20px 0px;
 }

@@ -128,6 +128,7 @@ body {
   min-height: auto;
 }
 .container-geral.container-08 .carroselSlide img {
+  min-height: 400px;
   max-height: 650px;
 }
 .container-geral.container-08 .carroselSlide .cassosel-texto {

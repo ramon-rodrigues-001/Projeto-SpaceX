@@ -118,9 +118,28 @@ body {
   display: grid;
   align-items: center;
 }
+.container-geral.container-07 {
+  background: url(../imagens/falcon9/08.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-geral.container-08 {
+  min-height: auto;
+}
+.container-geral.container-08 img {
+  max-height: 650px;
+}
+.container-geral.container-08 .cassosel-texto {
+  background-color: black;
+}
+.container-geral .descricao {
+  max-width: 500px;
+}
 
 .cardsNumb {
-  margin: 20px 0px;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

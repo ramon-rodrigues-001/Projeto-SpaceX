@@ -25,9 +25,34 @@
         display: grid;
         align-items: center;
     }
+
+    &.container-07 {
+        background: url(../imagens/falcon9/08.jpg) center center no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    &.container-08 {
+        min-height: auto;
+
+        img {
+            max-height: 650px;
+        }
+
+        .cassosel-texto {
+            background-color: black;
+        }
+    }
+
+    .descricao {
+        max-width: 500px;
+    }
 }
 
 
 .cardsNumb {
-    margin: 20px 0px;
+    margin-top: 20px;
 }

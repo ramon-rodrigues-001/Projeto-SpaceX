@@ -1,65 +1,160 @@
 .container-geral {
+    font-weight: bold;
     font-size: 1.1em;
     min-height: 100vh;
 
     &.container-05 {
         background: url(../imagens/falcon9/01.jpg) center center no-repeat;
         background-size: cover;
+
+        .titleFalcon {
+            font-size: 70px;
+            padding-top: 180px;
+        }
     }
     
     &.container-06 {
         background: url(../imagens/falcon9/02.jpg) center center no-repeat;
         background-size: cover;
-        display: flex;
-        align-items: center;
 
         .falcon9Desc {
             line-height: 40px;
             max-width: 550px;
         }
     }
-
-    &.carrosel {
-        background: url(../imagens/falcon9/03.jpg) center center no-repeat;
-        background-size: cover;
-        display: grid;
-        align-items: center;
-    }
-
+    
     &.container-07 {
         background: url(../imagens/falcon9/08.jpg) center center no-repeat;
         background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
-
 
     &.container-08 {
         min-height: auto;
 
-        img {
-            max-height: 650px;
-        }
-
-        .cassosel-texto {
-            background-color: black;
+        .carroselSlide {
+            img {
+                max-height: 650px;
+            }
+            .cassosel-texto {
+                background-color: black;
+            }
         }
     }
 
     &.container-09 {
+        min-height: auto;
+        padding: 50px 0px;
+        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+}
 
-    .descricao {
-        max-width: 500px;
+
+.carrosel-geral {
+    height: 100vh;
+
+    &.carrosel-01 {    
+        background: url(../imagens/falcon9/03.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    &.carrosel-02 {    
+        background: url(../imagens/falcon9/04.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    &.carrosel-03 {    
+        background: url(../imagens/falcon9/05.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    &.carrosel-04 {    
+        background: url(../imagens/falcon9/06.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    &.carrosel-05 {    
+        background: url(../imagens/falcon9/07.jpg) center center no-repeat;
+        background-size: cover;
     }
 }
 
 
-.cardsNumb {
+.cardsNumb {   // Numeros flutuantes
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
+    padding: 50px 0px;
+}
+
+.descricao {  // Tabelas e paragrafos das tabelas
+    max-width: 490px;
+    margin-left: 5%;
+}
+
+hr {
+    color: $branco-commun;
+}
+
+
+
+// MEDIA QUERYES
+
+
+// maior que 1500px
+@media screen and (min-width: 1500px) {
+    .container-geral {
+        &.container-08 {
+            .carroselSlide {
+                img {
+                    max-height: 100vh;
+                }
+            }
+        }
+    }
+}
+
+
+// MENOR que 650px
+@media screen and (max-width: 650px) {
+    .container-geral {
+        font-weight: normal;
+        font-size: 1em;
+
+        p.h1 {
+            font-size: 1.3em;
+        }
+        p.h5 {
+            font-size: 1.1em;
+        }
+
+        .button {
+            font-size: .9em;
+            font-weight: normal;
+            padding: 5px;
+        }
+    }
+    .carrosel-geral {
+        font-size: .9em;
+    }
+    .descricao {
+        max-width: 380px;
+    }
+}
+
+
+
+// MENOR que 450px
+@media screen and (max-width: 450px) {
+    .container-geral {
+        &.container-05 {
+            .titleFalcon {
+                font-size: 40px;
+                padding-top: 100px;
+            }
+        }
+    }
+    .descricao {
+        margin-left: 2%;
+    }
 }

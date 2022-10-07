@@ -21,7 +21,10 @@ body {
 }
 
 .container-texto {
-  padding-top: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .arrowDown {
@@ -32,6 +35,8 @@ body {
 }
 
 .button {
+  display: inline;
+  max-width: 200px;
   font-weight: bold;
   padding: 15px 35px;
   border: solid 2px #ffffff;
@@ -57,7 +62,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .header .logo {
-    width: 180px;
+    width: 150px;
   }
   .header i.h1 {
     font-size: 1em;
@@ -95,6 +100,7 @@ body {
   }
 }
 .container-geral {
+  font-weight: bold;
   font-size: 1.1em;
   min-height: 100vh;
 }
@@ -102,50 +108,118 @@ body {
   background: url(../imagens/falcon9/01.jpg) center center no-repeat;
   background-size: cover;
 }
+.container-geral.container-05 .titleFalcon {
+  font-size: 70px;
+  padding-top: 180px;
+}
 .container-geral.container-06 {
   background: url(../imagens/falcon9/02.jpg) center center no-repeat;
   background-size: cover;
-  display: flex;
-  align-items: center;
 }
 .container-geral.container-06 .falcon9Desc {
   line-height: 40px;
   max-width: 550px;
 }
-.container-geral.carrosel {
-  background: url(../imagens/falcon9/03.jpg) center center no-repeat;
-  background-size: cover;
-  display: grid;
-  align-items: center;
-}
 .container-geral.container-07 {
   background: url(../imagens/falcon9/08.jpg) center center no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .container-geral.container-08 {
   min-height: auto;
 }
-.container-geral.container-08 img {
+.container-geral.container-08 .carroselSlide img {
   max-height: 650px;
 }
-.container-geral.container-08 .cassosel-texto {
+.container-geral.container-08 .carroselSlide .cassosel-texto {
   background-color: black;
 }
 .container-geral.container-09 {
+  min-height: auto;
+  padding: 50px 0px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.container-geral .descricao {
-  max-width: 500px;
+
+.carrosel-geral {
+  height: 100vh;
+}
+.carrosel-geral.carrosel-01 {
+  background: url(../imagens/falcon9/03.jpg) center center no-repeat;
+  background-size: cover;
+}
+.carrosel-geral.carrosel-02 {
+  background: url(../imagens/falcon9/04.jpg) center center no-repeat;
+  background-size: cover;
+}
+.carrosel-geral.carrosel-03 {
+  background: url(../imagens/falcon9/05.jpg) center center no-repeat;
+  background-size: cover;
+}
+.carrosel-geral.carrosel-04 {
+  background: url(../imagens/falcon9/06.jpg) center center no-repeat;
+  background-size: cover;
+}
+.carrosel-geral.carrosel-05 {
+  background: url(../imagens/falcon9/07.jpg) center center no-repeat;
+  background-size: cover;
 }
 
 .cardsNumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
+  padding: 50px 0px;
+}
+
+.descricao {
+  max-width: 490px;
+  margin-left: 5%;
+}
+
+hr {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1500px) {
+  .container-geral.container-08 .carroselSlide img {
+    max-height: 100vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .container-geral {
+    font-weight: normal;
+    font-size: 1em;
+  }
+  .container-geral p.h1 {
+    font-size: 1.3em;
+  }
+  .container-geral p.h5 {
+    font-size: 1.1em;
+  }
+  .container-geral .button {
+    font-size: 0.9em;
+    font-weight: normal;
+    padding: 5px;
+  }
+  .carrosel-geral {
+    font-size: 0.9em;
+  }
+  .descricao {
+    max-width: 380px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container-geral.container-05 .titleFalcon {
+    font-size: 40px;
+    padding-top: 100px;
+  }
+  .descricao {
+    margin-left: 2%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

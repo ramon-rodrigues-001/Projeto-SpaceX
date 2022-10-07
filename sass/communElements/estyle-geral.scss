@@ -24,7 +24,10 @@ body {
 }
 
 .container-texto {
-    padding-top: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .arrowDown {
@@ -35,6 +38,8 @@ body {
 }
 
 .button {
+    display: inline;
+    max-width: 200px;
     font-weight: bold;
     padding: $pading-botton;
     border: solid 2px $branco-commun;
@@ -66,7 +71,7 @@ body {
 @media screen and (max-width: 400px) {
     .header {
         .logo {
-            width: 180px;
+            width: 150px;
         }
 
         i.h1 {

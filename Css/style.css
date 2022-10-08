@@ -2,6 +2,12 @@
   color: #ffffff;
 }
 
+.container-geral {
+  font-weight: bold;
+  font-size: 1.1em;
+  min-height: 100vh;
+}
+
 body {
   background-color: black;
 }
@@ -67,9 +73,6 @@ body {
   .header i.h1 {
     font-size: 1em;
   }
-}
-.container-geral {
-  min-height: 100vh;
 }
 .container-geral.container-01 {
   background: url(../imagens/home/01.jpg) center center no-repeat;
@@ -221,6 +224,70 @@ hr {
   .descricao {
     margin-left: 2%;
   }
+}
+.container-geral.container-10 {
+  background: url(../imagens/humanFlight/01.jpg) center center no-repeat;
+  background-size: cover;
+}
+.container-geral.container-10 .titleFalcon {
+  font-size: 80px;
+  padding-top: 170px;
+}
+.container-geral.container-10 .header a {
+  color: rgb(0, 0, 0);
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+.container-geral.container-10 .header a:hover {
+  text-decoration: underline;
+  color: rgb(64, 53, 53);
+}
+.container-geral.container-11 {
+  background: url(../imagens/humanFlight/02.jpg) center center no-repeat;
+  background-size: cover;
+}
+.container-geral.container-12 {
+  background: url(../imagens/humanFlight/03.jpg) center center no-repeat;
+  background-size: cover;
+}
+.container-geral.container-13 {
+  background: url(../imagens/humanFlight/04.jpg) center center no-repeat;
+  background-size: cover;
+}
+.container-geral.container-14 {
+  background: url(../imagens/humanFlight/05.jpg) center center no-repeat;
+  background-size: cover;
+}
+.container-geral.container-15 {
+  min-height: auto;
+  padding: 50px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-geral .titleSection {
+  font-size: 3em;
+}
+.container-geral .texto-human {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 500px;
+}
+.container-geral .texto-human.lado-direito {
+  align-items: flex-end;
+  margin-right: 5%;
+}
+.container-geral .texto-human.lado-esquerdo {
+  margin-left: 5%;
+}
+
+.btn {
+  max-width: 210px;
 }
 
 /*# sourceMappingURL=style.css.map */

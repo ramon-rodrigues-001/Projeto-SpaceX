@@ -308,6 +308,7 @@ hr {
   }
   .container-geral .texto-human.lado-direito {
     margin-right: 1%;
+    text-align: right;
   }
   .container-geral .texto-human.lado-esquerdo {
     margin-left: 1%;

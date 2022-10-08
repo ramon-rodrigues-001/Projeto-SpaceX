@@ -231,7 +231,7 @@ hr {
 }
 .container-geral.container-10 .titleFalcon {
   font-size: 80px;
-  padding-top: 170px;
+  padding-top: 150px;
 }
 .container-geral.container-10 .header a {
   color: rgb(0, 0, 0);
@@ -288,6 +288,36 @@ hr {
 
 .btn {
   max-width: 210px;
+}
+
+.text-card {
+  font-size: 1.1em;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .container-geral.container-10 .titleFalcon {
+    font-size: 40px;
+    padding-top: 150px;
+  }
+  .container-geral .texto-human.lado-direito {
+    margin-right: 1%;
+  }
+  .container-geral .texto-human.lado-esquerdo {
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container-geral.container-10 .titleFalcon {
+    font-size: 30px;
+    padding-top: 150px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
